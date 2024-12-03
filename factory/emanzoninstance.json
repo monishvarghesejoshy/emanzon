@@ -1,0 +1,9 @@
+{
+	"name": "emanzoninstance",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b50f2be-dce2-4c1f-8cb9-1eaa37169761",
+		"tenantId": "ba9796e2-9f9b-4d78-904f-538099235848"
+	}
+}
