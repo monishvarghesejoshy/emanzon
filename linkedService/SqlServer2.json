@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "MJ-1",
+			"database": "test",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "myj920",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2YzVkZjRlNS1mZjg0LTQ5YjMtYmVmYy0zOTA4NDc0M2RhN2UiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
