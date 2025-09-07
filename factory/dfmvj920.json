@@ -1,0 +1,9 @@
+{
+	"name": "dfmvj920",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "83725ada-e0c3-4843-9fbf-19b5d5800c01",
+		"tenantId": "7aeb49a1-e515-45b5-ad4b-4a03c2a593bc"
+	}
+}
