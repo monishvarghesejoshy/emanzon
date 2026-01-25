@@ -1,0 +1,6 @@
+{
+	"name": "SHIR-ONPREM-DESKTOP",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
