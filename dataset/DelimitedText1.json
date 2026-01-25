@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@dataset().filename",
+					"value": "@concat(dataset().filename\n,substring(convertFromUtc(utcNow(), 'Central Standard Time'),0,10),'.csv')",
 					"type": "Expression"
 				},
 				"container": "bronze"
