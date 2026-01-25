@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-mjdataengineer2026"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"Sql_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"lsbs_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://emanzonsa25.dfs.core.windows.net/"
+		},
+		"Sql_properties_typeProperties_server": {
+			"value": "DESKTOP-U0I28KC\\MSSQLSERVER01"
+		},
+		"Sql_properties_typeProperties_database": {
+			"value": "AdventureWorks"
+		},
+		"Sql_properties_typeProperties_userName": {
+			"value": "MONISH"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-U0I28KC"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "test_rnd"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "MJ-1"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "test"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "myj920"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
