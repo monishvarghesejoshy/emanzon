@@ -63,11 +63,11 @@
 								"waitOnCompletion": true,
 								"parameters": {
 									"Schema": {
-										"value": "@{item().schema}",
+										"value": "@{item().schemas}",
 										"type": "Expression"
 									},
 									"Table": {
-										"value": "@{item().Table}",
+										"value": "@{item().Tables}",
 										"type": "Expression"
 									}
 								}
