@@ -1,0 +1,21 @@
+{
+	"name": "Sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-U0I28KC\\MSSQLSERVER01",
+			"database": "AdventureWorks",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "MONISH",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiYmY4M2UxYS01NmJkLTRmOWUtYWM0Yi1iYzhkODQ1NDU2YzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-ONPREM-DESKTOP",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
