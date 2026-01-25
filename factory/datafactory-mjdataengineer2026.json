@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-mjdataengineer2026",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82ba3d4a-e2e8-425d-9a03-d75428618dd9",
+		"tenantId": "45335abf-586c-4e44-84e1-8b03d9345a76"
+	}
+}
