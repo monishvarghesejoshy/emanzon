@@ -1,9 +1,17 @@
 {
-	"name": "SqlServer1",
+	"name": "SqlServer2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Sql",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Schema": {
+				"type": "string"
+			},
+			"Table": {
+				"type": "string"
+			}
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
