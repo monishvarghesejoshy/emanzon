@@ -60,7 +60,17 @@
 									"referenceName": "12_Child",
 									"type": "PipelineReference"
 								},
-								"waitOnCompletion": true
+								"waitOnCompletion": true,
+								"parameters": {
+									"Schema": {
+										"value": "@{item().schema}",
+										"type": "Expression"
+									},
+									"Table": {
+										"value": "@{item().Table}",
+										"type": "Expression"
+									}
+								}
 							}
 						}
 					]
